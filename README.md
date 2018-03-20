@@ -34,7 +34,15 @@ Usage: NotificationManager [-options]
 
 # Deployment Instructions
 1. Deploy .nitro_s file to your FEB server
-2. Save the .jar, .properties and .bat to the server where you will run the utility.
+2. Edit the FEB Application
+  i) Click on Settings.
+  ii) Click on Registered Forms (under Services on the left-side of the screen).
+  iii) Edit the "Get Fields for Form" service by clicking the gear.
+  iv) On the Inputs tab, edit the service URL by clicking on the gear (under the URL).
+  v) In the URL field, change the "http://localhost:9080" to the host and port of your server.
+  vi) Click OK (ignore any warning that may appear and click OK to save the change).
+  vii) Deploy the application.
+3. Save the .jar, .properties and .bat to the server where you will run the utility.
 
 # Run-time Instructions
 1. Launch the "F_RegisteredForms" form.
