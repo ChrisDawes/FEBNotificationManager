@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre1.8.0_161\bin\java.exe" -Djava.util.logging.config.file=logging.properties -jar "C:\temp\GenNoteMan\GenericNotificationManager.jar" -host http://localhost:9080 -usr wasadmin -pwd wasadmin -debug -notifAPPID 928d68eb-7c08-4d86-8083-1a7eef707e8e -dir "C:\temp\GenNoteMan" -fik 1234 -days 2
